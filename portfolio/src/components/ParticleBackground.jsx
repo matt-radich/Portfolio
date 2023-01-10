@@ -23,80 +23,87 @@ const particlesLoaded = (container) => {
 
       options={{
         background: {
-          color: "030139" //background color of canvas
+          color: "#000000" //background color of canvas
         },
         fps_limit: 60,
-        
-        interactivity: { //object that contains all options for interactions
-          detectsOn: "canvas",
-          events: { //when window is resize particles get resized aswel
-              onhover: {
-              enable: false,
+        interactivity: {
+          events: {
+            onClick: {
+              enable: true,
+              mode: "push",
+            },
+            onHover: {
+              enable: true,
               mode: "grab",
-              },
+            },
             resize: true,
           },
-        },
-        modes: {
-          grab: {
-            distance: 500,
-            line_linked: {
-              opacity: 0.5,
+          modes: {
+            bubble: {
               distance: 100,
+              duration: 2,
+              opacity: 0.8,
+              size: 10,
+            },
+            push: {
+              quantity: 4,
+            },
+            repulse: {
+              distance: 100,
+              duration: 0.4,
+            },
+            grab: {
+              distance: 150,
             }
+            
+    
           },
-          repulse: {
-            distance: 10,
-            duration: 0.1,
-          }
-        
         },
         particles: {
-          color: { //color of actual particles
-            value: "D6D6D6" //particles do not require hash for color
+          color: {
+            value: "#04FDFB",
+          },
+          links: {
+            color: "#ffffff",
+            distance: 150,
+            enable: true,
+            opacity: 0.15,
+            width: 1,
+          },
+          collisions: {
+            enable: true,
+          },
+          move: {
+            direction: "none",
+            enable: true,
+            outMode: "bounce",
+            random: false,
+            speed: 0.5,
+            straight: false,
           },
           number: {
-            density: {//density of particles in canvas area
-              enable: false,
-              area: 1000,
-              value: 40,
-            },
-            limit: 0,//limits how many particles are on screen at one time, set as 0 so it can go all the way up to value number
-            value: 200,//number of particles on screen
-          },
-          opacity: {//set opacity
-            animation: {
+            density: {
               enable: true,
-              minimumValue: 0.05,
-              speed: 3,
-              sync: false,
+              value_area: 1000,
             },
-            random: {//randomize opacity of particles
-              enable: true,
-              minimumValue: 0.05,
-            },
-            value: 1
+            value: 80,
           },
-        
-          
-          shape: {//shape of individual particles
-            type: "circle", //also has square, triangle etc..
+          opacity: {
+            value: 0.5,
           },
-          size: {//size of particles
-            random: {//random sized particles
-              enable: true,
-              minimumValue: 0.2,
-            },
-            
-            value: 4,
-          }
+          shape: {
+            type: "circle",
+          },
+          size: {
+            random: true,
+            value: 5,
+          },
         },
         
       }}
-  
-  
-    
-    />
+
+  />
   </div>
 }
+
 export default ParticleBackground
