@@ -1,4 +1,22 @@
-.home-title {
-  color: white;
-  text-align: center;
+.name-container {
+  border: yellow 5px solid;
+  width: 50%;
+  margin: 50px;
+}
+.name-title {
+  color: aliceblue;
+}
+.home-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  z-index: 1;
+  border: green 5px solid;
+  margin-top: 100px;
+}
+.dev-title-container {
+  width: 50%;
+  border: pink 5px solid;
+  color: blue;
 }

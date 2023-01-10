@@ -11,21 +11,21 @@ import Home from './components/Home';
 
 function App() {
   return (
-  <div className="app">
+  <>
 
     <Navbar />
     <ParticleBackground />
-    <div className='main-container'>
+    
     <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-    </div>
-     
     
-  </div>
+  </>
+    
+  
   )
 }
 
