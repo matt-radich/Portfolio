@@ -15,7 +15,7 @@ const particlesLoaded = (container) => {
   console.log(container);
 }
 
-  return <div className="App">
+  return <div className="particles">
     <Particles 
     id="tsparticles"
       init={particlesInit}
@@ -23,7 +23,7 @@ const particlesLoaded = (container) => {
 
       options={{
         background: {
-          color: "#000000" //background color of canvas
+          color: "030139" //background color of canvas
         },
         fps_limit: 60,
         
@@ -53,7 +53,7 @@ const particlesLoaded = (container) => {
         },
         particles: {
           color: { //color of actual particles
-            value: "00ffff" //particles do not require hash for color
+            value: "D6D6D6" //particles do not require hash for color
           },
           number: {
             density: {//density of particles in canvas area
@@ -80,7 +80,7 @@ const particlesLoaded = (container) => {
         
           
           shape: {//shape of individual particles
-            type: "polygon", //also has square, triangle etc..
+            type: "circle", //also has square, triangle etc..
           },
           size: {//size of particles
             random: {//random sized particles
@@ -96,7 +96,7 @@ const particlesLoaded = (container) => {
   
   
     
-  />
-</div>
+    />
+  </div>
 }
 export default ParticleBackground
