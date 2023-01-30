@@ -7,11 +7,9 @@ function Home () {
     <>
     
       <div className="home-wrapper">
-        <div className="name-container">
-          <h1 className="name-title">Matt Radich</h1>
-        </div>
         <div className="dev-title-container">
-          <h3 classname="dev-title">Software Developer</h3>
+          <h3 className="name-title">MATT RADICH</h3>
+          <h3 classname="dev-title"><u>SOFTWARE DEVELOPER</u></h3>
         </div>
       </div>
     </>

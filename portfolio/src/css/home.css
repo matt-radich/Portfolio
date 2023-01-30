@@ -1,10 +1,9 @@
-.name-container {
-  border: yellow 5px solid;
-  width: 50%;
-  margin: 50px;
-}
+
 .name-title {
-  color: aliceblue;
+  letter-spacing: 40px;
+  font-size: 1.5rem;
+  text-align: center;
+ 
 }
 .home-wrapper {
   display: flex;
@@ -12,11 +11,14 @@
   flex-direction: column;
   height: 100vh;
   z-index: 1;
-  border: green 5px solid;
+  /* border: green 5px solid; */
   margin-top: 100px;
 }
 .dev-title-container {
   width: 50%;
-  border: pink 5px solid;
-  color: blue;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 4rem;
+  
 }
+
