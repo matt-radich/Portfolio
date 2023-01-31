@@ -1,34 +1,40 @@
 
 
 .site-logo {
-  font-size: 2rem;
+  padding: 0;
+  margin: 20px;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 .nav {
-  background-color: #333;
-  color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
-  font-family: 'League Spartan', sans-serif;;
 }
 
 .nav ul {
   padding: 0;
-  margin: 0;
+  margin: 20px;
   list-style: none;
   display: flex;
   gap: 1rem;
+  
 }
 .nav a {
-  color: red;
+  color: white;
   text-decoration: none;
   height: 100%;
   display: flex;
   align-items: center;
-  padding: .50rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  padding: 20px;
 }
 .nav li:hover {
-  background-color: #777;
+  transform: scale(1.4);
 }
