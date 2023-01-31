@@ -6,12 +6,26 @@ function Home () {
   return (
     <>
     
-      <div className="home-wrapper">
+      
+      <div className="page-wrapper">
         <div className="dev-title-container">
-          <h3 className="name-title">MATT RADICH</h3>
-          <h3 classname="dev-title"><u>SOFTWARE DEVELOPER</u></h3>
+
+          <div  className="name-title">
+            <div className="my-name">MATT RADICH<br></br></div>
+            <div className="sd-title"><u>SOFTWARE DEVELOPER</u></div>
+            
+            
+          </div>
+
+          <div className="social-links">
+            SOCIAL LINKS
+          </div>
+
         </div>
       </div>
+        
+        
+      
     </>
     
   )

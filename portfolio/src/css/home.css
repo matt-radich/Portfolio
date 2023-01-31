@@ -1,24 +1,60 @@
-
-.name-title {
-  letter-spacing: 40px;
+/* .name-title {
+  letter-spacing: 61px;
   font-size: 1.5rem;
-  text-align: center;
- 
-}
-.home-wrapper {
+  text-align: left;
+  display: flex;
+} */
+/* .dev-title {
+  text-align: left;
+} */
+/* .home-wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 100vh;
   z-index: 1;
-  /* border: green 5px solid; */
-  margin-top: 100px;
+  /* border: green 5px solid; 
+}*/
+.page-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100vh;
 }
 .dev-title-container {
-  width: 50%;
+  width: 100vw;
   color: white;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 4rem;
-  
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  margin-bottom: 300px;
 }
+.social-links {
+  background-color: yellow;
+  width: 10%;
+  padding: 10px;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.name-title {
+  background-color: blue;
+  width: 60%;
+  padding: 10px;
+}
+.my-name {
+  font-size: 2rem;
+  background-color: aqua;
+  line-height: 50px;
+  text-align: left;
+}
+.sd-title {
+  font-size: 4rem;
+  text-align: left;
+  background-color: blueviolet;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
 
