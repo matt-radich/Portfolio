@@ -96,7 +96,7 @@ const particlesLoaded = (container) => {
           },
           size: {
             random: true,
-            value: 5,
+            value: 2,
           },
         },
         

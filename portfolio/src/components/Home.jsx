@@ -18,7 +18,9 @@ function Home () {
           </div>
 
           <div className="social-links">
-            SOCIAL LINKS
+            <a href="https://github.com/matt-radich" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+            
+            <a href="https://www.linkedin.com/in/matt-radich-4a6b0323a/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
           </div>
 
         </div>
