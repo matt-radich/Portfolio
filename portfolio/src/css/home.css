@@ -48,12 +48,30 @@
   text-align: left;
   letter-spacing: 40px;
   font-family: 'Open Sans', sans-serif;
+  animation: 2s slidein-left;
+}
+@keyframes slidein-left {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+@keyframes slidein-right {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
 }
 .sd-title {
   font-size: 4rem;
   text-align: left;
   color: #66fafa;
   font-family: 'Titillium Web', sans-serif;
+  animation: 2s slidein-right;
 }
 .fa-brands {
   font-size: 3.2rem;
