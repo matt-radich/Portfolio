@@ -1,5 +1,6 @@
 import React from "react"
 import '../css/home.css'
+import { Link } from 'react-router-dom'
 
 
 function Home () {
@@ -13,7 +14,7 @@ function Home () {
           <div  className="name-title">
             <div className="my-name">MATT RADICH<br></br></div>
             <div className="sd-title"><u>SOFTWARE DEVELOPER</u></div>
-            
+            <Link to="/contact"><button >LETS TALK</button></Link>
             
           </div>
 

@@ -21,11 +21,10 @@
   height: 100vh;
 }
 .dev-title-container {
-  width: 100vw;
+  width: 100%;
   color: white;
   display: flex;
   justify-content: space-between;
- 
   margin-bottom: 300px;
 }
 .social-links {
