@@ -14,7 +14,7 @@ function Home () {
           <div  className="name-title">
             <div className="my-name">MATT RADICH<br></br></div>
             <div className="sd-title"><u>SOFTWARE DEVELOPER</u></div>
-            <Link to="/contact"><button >LETS TALK</button></Link>
+            <Link to="/contact"><button id="letsTalkButton"><i>LETS TALK</i></button></Link>
             
           </div>
 

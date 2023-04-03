@@ -1,20 +1,10 @@
-/* .name-title {
-  letter-spacing: 61px;
-  font-size: 1.5rem;
-  text-align: left;
-  display: flex;
-} */
-/* .dev-title {
-  text-align: left;
-} */
-/* .home-wrapper {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-  z-index: 1;
-  /* border: green 5px solid; 
-}*/
+* {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
 .page-wrapper {
   display: flex;
   align-items: center;
@@ -87,6 +77,36 @@
 a {
   text-decoration: none;
 }
+#letsTalk {
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  color: #66fafa;
+  letter-spacing: 5px;
+  border: 1px dashed white;
+  border-radius: 10px;
+  padding: 5px;
+  animation: 2s slidein-left;
+}
+#letsTalk:hover {
+  transform: scale(1.1);
+}
+#letsTalkButton {
+  font-family: 'Open Sans', sans-serif;
+  color: #66fafa;
+  border: 1px dashed white;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 10px;
+  font-size: 1rem;
+  padding: 5px;
+  cursor: pointer;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+#letsTalkButton:hover {
+  transform: scale(1.1);
+}
+
 
 
 

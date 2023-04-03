@@ -2,3 +2,61 @@
   color: white;
   text-align: center;
 }
+#contact {
+  color: #66fafa;
+  font-family: 'Titillium Web', sans-serif;
+  animation: 2s slidein-right;
+  font-size: 4rem;
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.contactForm {
+  width: 60%;
+  text-align: center;
+}
+.formWord {
+  margin-top: 20px;
+  color: white;
+}
+.formTitles {
+  font-size: 1.2rem;
+  line-height: 50px;
+  letter-spacing: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.input {
+  width: 50%;
+  height: 100%;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  color:black;
+  padding: 7px;
+}
+#messageConfirmation {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+}
+textarea {
+  font-family: 'Open Sans', sans-serif;
+}
+#submitButton {
+  font-family: 'Open Sans', sans-serif;
+  color: #66fafa;
+  border: 1px dashed white;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  padding: 5px;
+  width: 20%;
+  cursor: pointer;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+#submitButton:hover {
+  transform: scale(1.1);
+}

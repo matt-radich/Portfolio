@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 
 const Result =() => {
   return (
-    <p>Your message has been sent, Thank you!. I will be in contact soon</p>
+    <i><p id="messageConfirmation">Thank you,Your message has been sent. I will be in contact shortly</p></i>
   )
 }
 function Contact () {
@@ -23,36 +23,37 @@ function Contact () {
   };
   return (
     <>
-    <h1 className="contact-title">Contact Page</h1>
+    
+    <div className="formContainer">
+      <form className="contactForm" action="" onSubmit={sendEmail}>
+        
+        <h2 id="contact"><u> CONTACT</u></h2>
+        <div className="formWord">
 
-    <form action="" onSubmit={sendEmail}>
-      <div className="formWord">
+          <span className="formTitles">NAME</span>
+          <br />
+          <input className="input" type="text" name="name" placeholder="name"  required />
+          <br />
 
-        <h2> LETS TALK</h2>
+          <span className="formTitles">EMAIL</span>
+          <br />
+          <input className="input" type="text" name="email" placeholder="email" required/>
+          <br />
 
-        <span>FULLNAME</span>
-        <br />
-        <input className="input" type="text" name="name" required />
-        <br />
+        </div>
 
-        <span>EMAIL</span>
-        <br />
-        <input className="input" type="text" name="email" required/>
-        <br />
+        <div className="formWord">
+          <span className="formTitles">MESSAGE</span>
+          <br />
+          <textarea className="input" type="text" name="message" placeholder="message" required></textarea>
+          <br />
+          <button id="submitButton"><i>SUBMIT</i></button>
 
-      </div>
-
-      <div className="formWord">
-        <span>MESSAGE</span>
-        <br />
-        <textarea name="message" required></textarea>
-        <br />
-        <button>SUBMIT</button>
-
-        <div className="row">{
-          result ? <Result /> : null}</div>
-      </div>
-    </form>
+          <div className="row">{
+            result ? <Result /> : null}</div>
+        </div>
+      </form>
+    </div>
     </>
   )
 }
