@@ -1,13 +1,15 @@
 .nameTitle {
   color: white;
-  text-align: center;
+  /* text-align: center; */
   color: #66fafa;
   font-family: 'Titillium Web', sans-serif;
   font-size: 4rem;
   letter-spacing: 5px;
   animation: 1s slidein-left;
-  margin-left: 200px;
-  width: 40%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:  center;
 }
 .aboutContainer {
   height: 100%;
@@ -24,6 +26,14 @@
   font-family: 'Montserrat', sans-serif;
   padding: 10px;
   letter-spacing: 4px;
+}
+.links {
+  color: white;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:  center;
 }
 .skills {
   width: 35%;
@@ -44,10 +54,23 @@
   margin: 20px;
   border-radius: 10px;
   color: #66fafa;
+  background-color: black;
 }
-.heading {
-  color: white;
-  display: flex;
-  align-self: center;
-  justify-self: center;
+
+
+#aboutPageButtons {
+  font-family: 'Open Sans', sans-serif;
+  color: #66fafa;
+  border: 1px dashed white;
+  border-radius: 10px;
+  background-color: black;
+  margin: 30px;
+  font-size: 1.2rem;
+  padding: 5px;
+  cursor: pointer;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+#aboutPageButtons:hover {
+  transform: scale(1.1);
 }

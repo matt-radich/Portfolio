@@ -1,5 +1,6 @@
 import React from "react";
 import '../css/about.css'
+import { Link } from 'react-router-dom'
 
 function About () {
   return (
@@ -8,14 +9,14 @@ function About () {
 
     <div className="aboutContainer">
       <div className="aboutText">
-        <p>I'm a <b>Software Developer</b> based on the Gold Coast.<br/>
+        <p>I'm a <b>Software Developer</b> based on the Gold Coast.<br/><br/>
         Driven by a passion for learning and problem solving to create
-        meaningful solutions.
+        meaningful solutions. . .
         </p>
+        
       </div>
-      
-          
-      
+     
+
       <div className="skills">
         <div className="skill">HTML</div>
         <div className="skill">CSS</div>
@@ -27,6 +28,11 @@ function About () {
         <div className="skill">Node</div>
       </div>
     </div> 
+     
+    <div className="links">
+    <Link to="/projects"><button id="aboutPageButtons"><i>MY PROJECTS</i></button></Link>
+    <Link to="/contact"><button id="aboutPageButtons"><i>LETS TALK</i></button></Link>
+    </div>
     
     
     </>

@@ -87,9 +87,7 @@ a {
   padding: 5px;
   animation: 2s slidein-left;
 }
-#letsTalk:hover {
-  transform: scale(1.1);
-}
+
 #letsTalkButton {
   font-family: 'Open Sans', sans-serif;
   color: #66fafa;
