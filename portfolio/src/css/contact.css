@@ -5,7 +5,7 @@
 #contact {
   color: #66fafa;
   font-family: 'Titillium Web', sans-serif;
-  animation: 2s slidein-right;
+  animation: 1s slidein-left;
   font-size: 4rem;
 }
 .formContainer {

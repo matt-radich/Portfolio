@@ -1,4 +1,53 @@
-.about-title {
+.nameTitle {
   color: white;
   text-align: center;
+  color: #66fafa;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  animation: 1s slidein-left;
+  margin-left: 200px;
+  width: 40%;
+}
+.aboutContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutText {
+  display: flex;
+  width: 50%;
+  color: white;
+  height: 100%;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  letter-spacing: 4px;
+}
+.skills {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;
+}
+.skill {
+  border: 1px dashed white;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  font-size: 2rem;
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color: #66fafa;
+}
+.heading {
+  color: white;
+  display: flex;
+  align-self: center;
+  justify-self: center;
 }
